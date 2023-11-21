@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #ddd;
+}
+.my-navbar{
+    background-color: rgb(255, 255, 255, .79);
+}
+.section-header{
+    background-image: url('./../images/bg.jpg');
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    padding-top: 200px;
+}
+.section-header h2{
+    background-color: rgba(0, 0, 0, .8);
+
+    width: 100%;
+    color: #fff;
+    padding: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.section-cards h2{
+  font-size: 17px;
+}
+.section-cards p{
+    font-size: 14px;
+    counter-reset: #888;
+}
